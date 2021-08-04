@@ -1,0 +1,42 @@
+.new-joke {
+    background: linear-gradient(
+      135deg,
+      rgba(179, 229, 252, 1) 0%,
+      rgba(179, 229, 252, 1) 50%,
+      rgba(240, 98, 146, 1) 50%,
+      rgba(240, 98, 146, 1) 100%
+    );
+    padding: 10px 20px;
+    border-radius: 2rem;
+    width: 150px;
+    font-size: 1.5rem;
+}
+
+.laugh {
+    font-size: 15rem;
+}
+
+.parent {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    left: 15%;
+    top: 7.5%;
+    height: 85vh;
+    width: 300px;
+    background-color: mediumpurple;
+    z-index: 1;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+  
+  .parent h1 {
+    color: white;
+    font-size: 4rem;
+}
+  
+  .handwriting {
+    font-family: 'Amatic SC', cursive;
+}
+

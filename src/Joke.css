@@ -1,0 +1,31 @@
+.Joke {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 10%;
+}
+
+.Joke-vote {
+    display: flex;
+}
+
+.Joke-circle {
+    border-radius: 50%;
+    border: 2px solid darkblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 35px;
+}
+
+i {
+    font-size: 1.3rem;
+    padding: 10px;
+    color: gray;
+}
+
+.emoji {
+    border-radius: 50%;
+    font-size: 3rem;
+    padding-right: 5px;
+}
